@@ -22,11 +22,6 @@ namespace GameChanger.Controllers
         {
             return View();
         }
-        public IActionResult Gamse()
-        {
-            return View();
-
-        }
 
         public IActionResult Privacy()
         {

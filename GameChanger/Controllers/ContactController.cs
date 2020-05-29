@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GameChanger.Controllers
 {
-    public class ContactController1 : Controller
+    public class ContactController : Controller
     {
         // GET: ContactController1
         public ActionResult Index()

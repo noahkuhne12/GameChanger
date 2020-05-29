@@ -12,7 +12,7 @@ namespace GameChanger.Controllers
         // GET: ReviewsController
         public ActionResult Index()
         {
-            return View();
+            return View("Reviews");
         }
 
         // GET: ReviewsController/Details/5
