@@ -4,28 +4,30 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - GameChanger</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="~/css/Font.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm justify-content-center navbar-bg-black-transperent fixed-top">
-            <ul class="navbar-nav">
-                <li class="nav-item ">
-                    <a class="nav-link nav-link-custom-color" href="\Home">Forside</a>
-                </li>                      
-                <li class="nav-item">      
-                    <a class="nav-link nav-link-custom-color" href="\Games">Spil</a>
-                </li>                      
-                <li class="nav-item">      
-                    <a class="nav-link nav-link-custom-color" href="\Reviews">Andmelser</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link nav-link-custom-color" href="\Contact">Kontakt</a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <nav class="navbar navbar-expand-sm justify-content-center navbar-bg-black-transperent fixed-top">
+                <ul class="navbar-nav">
+                    <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "Home" ? "active" : "")">
+                        <a class="nav-link nav-link-custom " href="\Home">Forside</a>
+                    </li>
+                    <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "Games" ? "active" : "")">
+                        <a class="nav-link nav-link-custom " href="\Games">Spil</a>
+                    </li>
+                    <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "Reviews" ? "active" : "")">
+                        <a class="nav-link nav-link-custom " href="\Reviews">Andmelser</a>
+                    </li>
+                    <li class="nav-item @(ViewContext.RouteData.Values["Controller"].ToString() == "Contact" ? "active" : "")">
+                        <a class="nav-link nav-link-custom " href="\Contact">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main role="main" class="pb-3">
         @RenderBody()

@@ -72,13 +72,32 @@ body {
 
 /*Navbar styl
 -----------------------------*/
+.navbar {
+    padding: 0 !important;
+}
+.nav-link{
+    padding: 2px 20px 2px 20px !important;
+}
 
 .navbar-bg-black-transperent {
     background-color: #000000;
-    opacity: 0.6;
+    opacity: 0.8;
+}
+.nav-link {
+    padding-left: 10px;
 }
 
-.nav-link-custom-color{
-    color: #fff
+.nav-link-custom{
+    color: #ffffff
 }
+.nav-link-custom:hover, .active {
+    color: #000000;
+    background-color: #00c3e6;
+}
+
+.nav-link-custom-active {
+    color: #000000;
+    background-color: #00c3e6;
+}
+
 
