@@ -4,59 +4,54 @@
 .top-baggrund-box {
     width: 100%;
     height: 200px;
-    background-color: gray;
+    background-color: #808080;
     background-position: top;
-    position: relative;
     background-image: url('../gamechanger billedmateriale/grafik/cross.png');
     background-repeat: round;
 }
 
 .center-box{
-    top: 8%;
+    top: 0%;
+    bottom: 0%;
     left: 20%;
     right: 20%;
-    outline: solid 2px black ;
     position: absolute;
 }
 
 .logo{
+    top: 8%;
     width: 100%;
-    height:50px;
     position: absolute;
 }
 
-/*.facebook {
-    height: 42.5px;
-    width: 42.5px;
-    padding: 4px;
-    position: absolute;
-    top: 18%;
-    right: 20%
+.facebook {
+    height: 75%;
+    width: 11.615%;
 }
 
 .googleplus {
-    height: 42.5px;
-    width: 42.5px;
-    padding: 4px;
-    position: absolute;
-    top: 18%;
-    right: 23%
+    height: 75%;
+    width: 11.615%;
 }
 
 .twitter {
-    height: 42.5px;
-    width: 42.5px;
-    padding: 4px;
-    position: absolute;
-    top: 18%;
-    right: 26%
+    height: 75%;
+    width: 11.615%;
 }
 
 .youtube {
-    height: 42.5px;
-    width: 42.5px;
-    padding: 4px;
+    height: 75%;
+    width: 11.615%;
+}
+.gamechanger-logo {
+    height: 80%;
+    width: 50%;
+}
+
+.center-overlap {
+    top: 14.5%;
+    bottom:5%;
+    width: 100%;
+    background-color:#ffffff;
     position: absolute;
-    top: 18%;
-    right: 29%;*/
-}
+}
