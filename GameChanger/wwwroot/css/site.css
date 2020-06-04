@@ -90,14 +90,15 @@ body {
 .nav-link-custom{
     color: #ffffff
 }
-.nav-link-custom:hover, .active {
+.nav-link-custom:hover {
     color: #000000;
     background-color: #00c3e6;
 }
-
-.nav-link-custom-active {
-    color: #000000;
+.active {
     background-color: #00c3e6;
 }
 
+.active-text-black {
+    color: #000000 !important;
+}
 
