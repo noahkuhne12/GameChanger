@@ -96,10 +96,35 @@ th {
     position:center;
 }
 
-.aktuelle-spil-size{
-    font-size: 150%;
+.table .head-colum .big-picture-size{
+    width: 40%;
+    height:auto;
+}
+
+ .big-picture-size img {
+    max-width: 100%;
+    height:auto;
+}
+
+.title {
+    font-size: 1.4vw;
+}
+ .subtitle{
+     font-size: 0.7vw;
+ }
+ .maintext{
+     font-size:1vw;
+ }
+
+.gray-bagrund{
+    background-color: lightgray;
+    position:relative;
+}
+
+.aktuelle-spil-size {
+    font-size: 1.5vw;
 }
 
 .anmeldelser-size {
-    font-size:115%;
+    font-size: 1vw ;
 }
