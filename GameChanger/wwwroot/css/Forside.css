@@ -3,10 +3,14 @@
     margin: 0;
     width: 100%;
 }
+.container-fluid {
+    padding: 0 !important;
+}
 .banner{
     position: relative;
+    width:100%;
 }
-.banner img{
+.banner-img {
     width: 100%;
 }
 .banner-textblok {
@@ -14,19 +18,43 @@
     top: 0;
     right: 27%;
     left: 60%;
+    max-width: 13%;
     height: 86%;
+    max-height: 86%;
     background-color: #000000;
     opacity: 0.8;
 }
-.banner-textblok-textbox{
+.banner-textblok-textbox {
     color: #ffffff;
+    position: absolute;
     max-width: 100%;
-    max-height: 100%;
-    outline: solid #ffffff;
+    bottom: 0%;
+    padding: 0 4%;
+    padding-bottom: 3%;
 }
-.banner-textblok-textbox p{
-    font-size: 1vw;
+.banner-textblok-textbox p {
+    font-size: 0.9vw;
+    margin: 0;
+    line-height: 1.1;
 }
-.banner-textblok-textbox h3{
+.banner-textblok-textbox h4 {
     font-size: 2vw;
+    margin: 0;
+    line-height: 1.1;
+}
+.banner-textblok-textbox-img{
+   
+}
+.content-atea {
+    outline: solid #4cff00;
+    right: 19.5%;
+    left: 19.5%;
+    max-width: 61%;
+    top: 35.5vw;
+    position: absolute;
+    padding: 2% 1.5%;
+    background-color: #ffffff;
+}
+.spilthumbs{
+    width: 100%;
 }
