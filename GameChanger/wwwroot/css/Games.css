@@ -3,7 +3,7 @@
 
 .top-baggrund-box {
     width: 100%;
-    height: 200px;
+    height: 20vh;
     background-color: #808080;
     background-position: top;
     background-image: url('../gamechanger billedmateriale/grafik/cross.png');
@@ -13,12 +13,14 @@
 .center-box{
     top: 0%;
     bottom: 0%;
-    left: 20%;
-    right: 20%;
+    left: 19%;
+    right: 19%;
     position: absolute;
 }
 
-
+/*
+    Social media og logo
+*/
 .logo{
     top: 8%;
     width: 100%;
@@ -49,11 +51,15 @@
     height: 75%;
     width: 39px;
 }
+
 .gamechanger-logo {
     height: 80%;
     width: 21vw;
 }
 
+/*
+    Overlaping piece
+*/
 .center-overlap {
     top: 14.5%;
     bottom:2%;
@@ -70,6 +76,9 @@
     position: absolute;
 }
 
+/*
+    Info tabel
+*/
 .info-side{
     width: 73%;
     height: 100%;
@@ -92,39 +101,65 @@ th {
 }
 
 .table .head-colum .arrow{
-    width:22px;
-    position:center;
+    width:15px;
+    
 }
 
-.table .head-colum .big-picture-size{
+.games .games-pic-size{
     width: 40%;
     height:auto;
 }
 
- .big-picture-size img {
+.games-pic-size img {
     max-width: 100%;
-    height:auto;
+    height: auto;
 }
 
-.title {
+.games-title {
     font-size: 1.4vw;
 }
- .subtitle{
-     font-size: 0.7vw;
- }
+
+.subtitle {
+    font-size: 0.7vw;
+}
  .maintext{
      font-size:1vw;
  }
-
-.gray-bagrund{
-    background-color: lightgray;
-    position:relative;
-}
 
 .aktuelle-spil-size {
     font-size: 1.5vw;
 }
 
-.anmeldelser-size {
+.gray-bagrund {
+    background-color: #e8e8e8;
+    position: relative;
+}
+
+/*
+    Anmeldes siden
+*/
+
+.anmeldelser-th-size {
     font-size: 1vw ;
+}
+
+.anmeldse-title {
+    font-size: 1vw;
+    margin:0px;
+}
+
+.time-written-size {
+    font-size: 0.7vw;
+    margin:0px;
+}
+
+.anmeldelser .Anmeldelse-pic-size{
+    width: 20%;
+    padding:0px;
+    height: auto;
+}
+
+.Anmeldelse-pic-size img {
+    max-width: 100%;
+    height: auto;
 }
