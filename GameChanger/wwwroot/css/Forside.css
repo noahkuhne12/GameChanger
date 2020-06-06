@@ -43,7 +43,8 @@
     line-height: 1.1;
 }
 .banner-textblok-textbox-img{
-   
+   width: 1.2vw;
+   height: 1.2vw;
 }
 .content-atea {
     outline: solid #4cff00;
