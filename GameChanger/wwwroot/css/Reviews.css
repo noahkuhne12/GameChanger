@@ -27,32 +27,32 @@
 }
 
 .social-size {
-    width: 42px;
+    width: 2vw;
 }
 
 .facebook {
     height: 75%;
-    width: 39px;
+    width: 1.75vw;
 }
 
 .googleplus {
     height: 75%;
-    width: 39px;
+    width: 1.75vw;
 }
 
 .twitter {
     height: 75%;
-    width: 39px;
+    width: 1.75vw;
 }
 
 .youtube {
     height: 75%;
-    width: 39px;
+    width: 1.75vw;
 }
 
 .gamechanger-logo {
     height: 80%;
-    width: 50%;
+    width: 21vw;
 }
 
 .center-overlap {
@@ -97,10 +97,50 @@ th {
     position: center;
 }
 
-.aktuelle-spil-size {
-    font-size: 150%;
+.Anmeldelse-size {
+    font-size: 1.4vw;
 }
 
-.anmeldelser-size {
-    font-size: 115%;
+/*
+    Anmeldelses side
+*/
+.anmeldelse-title {
+    font-size: 1.7vw;
+}
+.anmeldelse-picture{
+    width:100%;
+    height:auto;
+}
+
+/*
+    Nye Anmeldelsers siden
+*/
+.gray-bagrund {
+    background-color: #e8e8e8;
+    position: relative;
+}
+
+.anmeldelser-th-size {
+    font-size: 1vw;
+}
+
+.anmeldelser-title {
+    font-size: 1vw;
+    margin: 0px;
+}
+
+.time-written-size {
+    font-size: 0.7vw;
+    margin: 0px;
+}
+
+.nye-anmeldelser .Anmeldelse-pic-size {
+    width: 20%;
+    padding: 0px;
+    height: auto;
+}
+
+.Anmeldelse-pic-size img {
+    max-width: 100%;
+    height: auto;
 }

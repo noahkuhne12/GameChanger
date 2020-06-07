@@ -102,7 +102,6 @@ th {
 
 .table .head-colum .arrow{
     width:15px;
-    
 }
 
 .games .games-pic-size{
@@ -153,7 +152,7 @@ th {
     margin:0px;
 }
 
-.anmeldelser .Anmeldelse-pic-size{
+.nye-anmeldelser .Anmeldelse-pic-size{
     width: 20%;
     padding:0px;
     height: auto;
