@@ -105,13 +105,16 @@ th {
     Anmeldelses side
 */
 .anmeldelse-title {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 .anmeldelse-picture{
     width:100%;
     height:auto;
 }
-
+.subtitle{
+    font-size:0.9vw;
+    margin:0px;
+}
 /*
     Nye Anmeldelsers siden
 */
@@ -124,14 +127,15 @@ th {
     font-size: 1vw;
 }
 
-.anmeldelser-title {
+.anmeldse-title {
     font-size: 1vw;
+    color: black;
     margin: 0px;
 }
 
 .time-written-size {
     font-size: 0.7vw;
-    margin: 0px;
+    margin-bottom: 5px;
 }
 
 .nye-anmeldelser .Anmeldelse-pic-size {
@@ -143,4 +147,8 @@ th {
 .Anmeldelse-pic-size img {
     max-width: 100%;
     height: auto;
+}
+
+a:link{
+    text-decoration:none;
 }

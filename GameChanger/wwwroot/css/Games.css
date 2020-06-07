@@ -116,6 +116,7 @@ th {
 
 .games-title {
     font-size: 1.4vw;
+    color: black;
 }
 
 .subtitle {
@@ -144,6 +145,7 @@ th {
 
 .anmeldse-title {
     font-size: 1vw;
+    color:black;
     margin:0px;
 }
 
@@ -161,4 +163,8 @@ th {
 .Anmeldelse-pic-size img {
     max-width: 100%;
     height: auto;
+}
+
+a:link{
+    text-decoration:none;
 }

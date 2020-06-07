@@ -14,6 +14,27 @@ namespace GameChanger.Controllers
         {
             return View("Reviews");
         }
+        public ActionResult Reviewgtav()
+        {
+            return View("ReviewGTA5");
+        }
+        public ActionResult ReviewCallOfDuty()
+        {
+            return View("ReviewCallOfDuty");
+        }
+        public ActionResult ReviewTitanfall()
+        {
+            return View("ReviewTitanfall");
+        }
+        public ActionResult ReviewRedDeadRedemption()
+        {
+            return View("ReviewRedDead");
+        }
+        public ActionResult ReviewFifa14()
+        {
+            return View("ReviewFifa14");
+        }
+
 
         // GET: ReviewsController/Details/5
         public ActionResult Details(int id)

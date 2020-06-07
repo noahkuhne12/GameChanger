@@ -63,7 +63,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_splintercell.jpg" />
                             </td>
                             <td>
-                                <h4 class="games-title"><strong>Splinter Cell: Blacklist</strong></h4>
+                                <a href="@Url.Action("index", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="games-title"><strong>Splinter Cell: Blacklist</strong></span>
+                                </a>
                                 <p class="subtitle">Udgiver: <u>Ubisoft</u> | Genre: Stealth</p>
                                 <p class="maintext">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -80,15 +82,17 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_gtav.jpg" />
                             </td>
                             <td class="gray-bagrund">
-                                <h4 class="games-title"><strong>Grand theft auto V</strong></h4>
-                                <p class="subtitle">Udgiver: <u>Rockstar Games</u> | Genre: Action-Adventure</p>
-                                <p class="maintext">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the
-                                    1500s, when an unknown printer took a galley of type and scrambled it to
-                                    make a type specimen book.
+                                <a href="@Url.Action("Reviewgtav", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="games-title"><strong>Grand theft auto V</strong></span>
+                                </a>
+                                    <p class="subtitle">Udgiver: <u>Rockstar Games</u> | Genre: Action-Adventure</p>
+                                    <p class="maintext">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley of type and scrambled it to
+                                        make a type specimen book.
 
-                                </p>
+                                    </p>
                             </td>
                         </tr>
                         <tr>
@@ -97,7 +101,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_call_of_duty.jpg" />
                             </td>
                             <td>
-                                <h4 class="games-title"><strong>Call Of Duty</strong></h4>
+                                <a href="@Url.Action("ReviewCallOfDuty", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="games-title"><strong>Grand theft auto V</strong></span>
+                                </a>
                                 <p class="subtitle">Udgiver: <u>Activision</u> | Genre: First-person shooter</p>
                                 <p class="maintext">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -114,7 +120,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_titanfall.jpg" />
                             </td>
                             <td class="gray-bagrund">
-                                <h4 class="games-title"><strong>Titanfall</strong></h4>
+                                <a href="@Url.Action("ReviewTitanfall", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="games-title"><strong>Titanfall</strong></span>
+                                </a>
                                 <p class="subtitle">Udgiver: <u>Respawn Entertainment</u> | Genre: First-person shooter </p>
                                 <p class="maintext">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -131,7 +139,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_red_dead_redemption.jpg" />
                             </td>
                             <td>
-                                <h4 class="games-title"><strong>Red Dead Redemption</strong></h4>
+                                <a href="@Url.Action("ReviewRedDeadRedemption", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="games-title"><strong>Red Dead Redemption</strong></span>
+                                </a>
                                 <p class="subtitle">Udgiver: <u>Rockstar Games</u> | Genre: Action-adventure </p>
                                 <p class="maintext">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -148,7 +158,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_fifa_2014.jpg" />
                             </td>
                             <td class="gray-bagrund">
-                                <h4 class="games-title"><strong>Fifa 14</strong></h4>
+                                <a href="@Url.Action("ReviewFifa14", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="games-title"><strong>Fifa 14</strong></span>
+                                </a>
                                 <p class="subtitle">Udgiver: <u>Electronic Arts (EA)</u> | Genre: Sportsgame </p>
                                 <p class="maintext">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -184,7 +196,10 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_splintercell.jpg" />
                             </td>
                             <td style="padding:2%;">
-                                <p class="anmeldse-title"><strong>Splinter cell: blacklist</strong></p>
+                                <a href="@Url.Action("Index", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="anmeldse-title"> <strong>Splinter cell: blacklist</strong></span>
+                                </a>
+                                
                                 <p class="time-written-size"> oprettet: 6. Juni 2020</p>
                             </td>
                         </tr>
@@ -192,8 +207,13 @@
                             <td class="Anmeldelse-pic-size gray-bagrund">
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_gtav.jpg" />
                             </td>
+                            
                             <td style="padding:2%;" class=" gray-bagrund">
-                                <p class="anmeldse-title"><strong>Grand Theft Auto V</strong></p>
+
+                                <a href="@Url.Action("Reviewgtav", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="anmeldse-title"> <strong>Grand Theft Auto V</strong></span>
+                                </a>
+                                   
                                 <p class="time-written-size"> oprettet: 5. Juni 2020</p>
                             </td>
                         </tr>
@@ -202,7 +222,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_call_of_duty.jpg" />
                             </td>
                             <td style="padding:2%;">
-                                <p class="anmeldse-title"><strong>Call Of Duty: Ghosts</strong></p>
+                                <a href="@Url.Action("ReviewCallOfDuty", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="anmeldse-title"> <strong>Call Of Duty: Ghost</strong></span>
+                                </a>
                                 <p class="time-written-size"> oprettet: 4. Juni 2020</p>
                             </td>
                         </tr>
@@ -211,7 +233,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_titanfall.jpg" />
                             </td>
                             <td style="padding:2%;" class="gray-bagrund">
-                                <p class="anmeldse-title"><strong>Titanfall</strong></p>
+                                <a href="@Url.Action("ReviewTitanfall", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="anmeldse-title"> <strong>Titanfall</strong></span>
+                                </a>
                                 <p class="time-written-size"> oprettet: 1. Juni 2020</p>
                             </td>
                         </tr>
@@ -220,7 +244,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_red_dead_redemption.jpg" />
                             </td>
                             <td style="padding:2%;">
-                                <p class="anmeldse-title"><strong>Red Dead Redemption</strong></p>
+                                <a href="@Url.Action("ReviewRedDeadRedemption", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="anmeldse-title"> <strong>Red Dead Redemption</strong></span>
+                                </a>
                                 <p class="time-written-size"> oprettet: 28. maj 2020</p>
                             </td>
                         </tr>
@@ -229,7 +255,9 @@
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_fifa_2014.jpg" />
                             </td>
                             <td style="padding:2%;" class="gray-bagrund">
-                                <p class="anmeldse-title"><strong>Fifa 14</strong></p>
+                                <a href="@Url.Action("ReviewFifa14", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span class="anmeldse-title"> <strong>Fifa 14</strong></span>
+                                </a>
                                 <p class="time-written-size"> oprettet: 25. maj 2020</p>
                             </td>
                         </tr>
