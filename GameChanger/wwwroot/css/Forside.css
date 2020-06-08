@@ -3,6 +3,9 @@
     margin: 0;
     width: 100%;
 }
+/*
+----------banner----------
+*/
 .banner{
     position: relative;
     max-width: 100%;
@@ -42,6 +45,9 @@
    width: 1vw;
    height: 1vw;
 }
+/*
+------------the midelbox-----------
+*/
 .content-atea {
     right: 19.5%;
     left: 19.5%;
@@ -52,6 +58,9 @@
     padding: 2% 1.5%;
     background-color: #ffffff;
 }
+/*
+------------spilthumbs-----------
+*/
 .spilthumbs {
     max-width: 100%;
 }
@@ -62,7 +71,8 @@
     width: 15%;
     text-align: center;
     color: #00f5fc;
-    padding: 2% 1%;
+    padding-bottom: 2%;
+    padding-right: 2%;
 }
 .spilthumbs img {
     position: relative;
@@ -78,10 +88,12 @@
     padding: 0.1vw 0.1vw;
     margin: 0 !important;
 }
+/*
+-------------Seneste-trailer----------
+*/
 .Seneste-trailer {
-    outline: solid red;
     width: 60%;
-    position:absolute;
+    position: absolute;
 }
 
 
@@ -142,4 +154,26 @@ th {
 
 a:link {
     color: black;
+}
+
+/*
+--------footer----------
+*/
+footer{
+    position: relative;
+    width: 100%;
+    background-color: #bebaba;
+    bottom: 0%;
+}
+footer p{
+    color: #808080;
+    padding: 0px !important;
+    margin: 0px !important;
+    float: right;
+}
+footer a {
+    color: #808080;
+    padding: 0px !important;
+    margin: 0px !important;
+    float: right;
 }
