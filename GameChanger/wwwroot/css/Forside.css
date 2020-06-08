@@ -3,15 +3,12 @@
     margin: 0;
     width: 100%;
 }
-.container-fluid {
-    padding: 0px !important;
-}
 .banner{
     position: relative;
-    width:100%;
+    max-width: 100%;
 }
 .banner-img {
-    width: 100%;
+    max-width: 100%;
 }
 .banner-textblok {
     position: absolute;
@@ -20,7 +17,6 @@
     left: 60%;
     max-width: 13%;
     height: 86%;
-    max-height: 86%;
     background-color: #000000;
     opacity: 0.8;
 }
@@ -43,19 +39,45 @@
     line-height: 1.1;
 }
 .banner-textblok-textbox-img{
-   width: 1.2vw;
-   height: 1.2vw;
+   width: 1vw;
+   height: 1vw;
 }
 .content-atea {
-    outline: solid #4cff00;
     right: 19.5%;
     left: 19.5%;
-    max-width: 61%;
+    max-width: 60%;
     top: 35.5vw;
     position: absolute;
     padding: 2% 1.5%;
     background-color: #ffffff;
 }
-.spilthumbs{
+.spilthumbs {
+    max-width: 100%;
+}
+.spilthumbs div {
+    position: relative;
+}
+.spilthumbs td {
+    width: 15%;
+    text-align: center;
+    color: #00f5fc;
+    padding: 2% 1%;
+}
+.spilthumbs img {
+    position: relative;
     width: 100%;
+}
+.spilthumbs p {
+    width: 100%;
+    font-size: 0.7vw;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.9;
+    bottom: 0;
+    padding: 0.1vw 0.1vw;
+    margin: 0 !important;
+}
+.Seneste-trailer {
+    outline: solid red;
+    width: 70%;
 }
