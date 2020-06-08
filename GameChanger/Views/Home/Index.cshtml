@@ -85,7 +85,89 @@
                     <div class="Seneste-trailer">
                         <iframe style="width: 100%" src="https://www.youtube.com/embed/4A05AnPSC6g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    @* wiliam *@
+
+                    <div class="new-anmeldelses-side">
+                        <table class="table" style="max-width:100%">
+                            <thead class="head-colum">
+                                <tr>
+                                    <th class="arrow" style="vertical-align:middle;">
+                                        <img src="~/Gamechanger billedmateriale/Grafik/icon_titlebar.png" />
+                                    </th>
+                                    <th class="anmeldelser-th-size">
+                                        Mest Populære Spil
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <table class="nye-anmeldelser">
+                            <tr>
+                                <td class="Anmeldelse-pic-size">
+                                    <img src="~/Gamechanger billedmateriale/Thumbs/thumb_splintercell.jpg" />
+                                </td>
+                                <td style="padding:2%;">
+                                    <a href="@Url.Action("Index", null, new { area = string.Empty, controller = "Reviews" })">
+                                        <span class="anmeldse-title"> <strong>Splinter cell: blacklist</strong></span>
+                                    </a>
+                                    <p class="time-written-size"> oprettet: 6. Juni 2020</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Anmeldelse-pic-size gray-bagrund">
+                                    <img src="~/Gamechanger billedmateriale/Thumbs/thumb_gtav.jpg" />
+                                </td>
+                                <td style="padding:2%;" class=" gray-bagrund">
+                                    <a href="@Url.Action("Reviewgtav", null, new { area = string.Empty, controller = "Reviews" })">
+                                        <span class="anmeldse-title"> <strong>Grand Theft Auto V</strong></span>
+                                    </a>
+                                    <p class="time-written-size"> oprettet: 5. Juni 2020</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Anmeldelse-pic-size">
+                                    <img src="~/Gamechanger billedmateriale/Thumbs/thumb_call_of_duty.jpg" />
+                                </td>
+                                <td style="padding:2%;">
+                                    <a href="@Url.Action("ReviewCallOfDuty", null, new { area = string.Empty, controller = "Reviews" })">
+                                        <span class="anmeldse-title"> <strong>Call Of Duty: Ghosts</strong></span>
+                                    </a>
+                                    <p class="time-written-size"> oprettet: 4. Juni 2020</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Anmeldelse-pic-size gray-bagrund">
+                                    <img src="~/Gamechanger billedmateriale/Thumbs/thumb_titanfall.jpg" />
+                                </td>
+                                <td style="padding:2%;" class="gray-bagrund">
+                                    <a href="@Url.Action("ReviewTitanfall", null, new { area = string.Empty, controller = "Reviews" })">
+                                        <span class="anmeldse-title"> <strong>Titanfall</strong></span>
+                                    </a>
+                                    <p class="time-written-size"> oprettet: 1. Juni 2020</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Anmeldelse-pic-size">
+                                    <img src="~/Gamechanger billedmateriale/Thumbs/thumb_red_dead_redemption.jpg" />
+                                </td>
+                                <td style="padding:2%;">
+                                    <a href="@Url.Action("ReviewRedDeadRedemption", null, new { area = string.Empty, controller = "Reviews" })">
+                                        <span class="anmeldse-title"> <strong>Red Dead Redemption</strong></span>
+                                    </a>
+                                    <p class="time-written-size"> oprettet: 28. maj 2020</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="Anmeldelse-pic-size gray-bagrund">
+                                    <img src="~/Gamechanger billedmateriale/Thumbs/thumb_fifa_2014.jpg" />
+                                </td>
+                                <td style="padding:2%;" class="gray-bagrund">
+                                    <a href="@Url.Action("ReviewFifa14", null, new { area = string.Empty, controller = "Reviews" })">
+                                        <span class="anmeldse-title"> <strong>Fifa 14</strong></span>
+                                    </a>
+                                    <p class="time-written-size"> oprettet: 25. maj 2020</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

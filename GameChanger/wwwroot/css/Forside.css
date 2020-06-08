@@ -46,6 +46,7 @@
     right: 19.5%;
     left: 19.5%;
     max-width: 60%;
+    height:100%;
     top: 35.5vw;
     position: absolute;
     padding: 2% 1.5%;
@@ -79,5 +80,66 @@
 }
 .Seneste-trailer {
     outline: solid red;
-    width: 70%;
+    width: 60%;
+    position:absolute;
+}
+
+
+/*
+    Nye Anmeldelsers siden
+*/
+.new-anmeldelses-side {
+    max-width: 35%;
+    right: 0%;
+    position: absolute;
+}
+
+.table .head-colum
+th {
+    background-color: #343a40;
+    border-color: #454d55;
+    color: deepskyblue;
+}
+
+.table .head-colum .arrow {
+    width: 1.5vw;
+}
+
+.table .head-colum .arrow img {
+    width: 1.5vw;
+}
+
+.gray-bagrund {
+    background-color: #e8e8e8;
+    position: relative;
+}
+
+.anmeldelser-th-size {
+    font-size: 1vw;
+}
+
+.anmeldse-title {
+    font-size: 1vw;
+    color: black;
+    margin: 0px;
+}
+
+.time-written-size {
+    font-size: 0.7vw;
+    margin-bottom: 0.3vw;
+}
+
+.nye-anmeldelser .Anmeldelse-pic-size {
+    width: 20%;
+    padding: 0px;
+    height: auto;
+}
+
+.Anmeldelse-pic-size img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:link {
+    color: black;
 }

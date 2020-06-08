@@ -31,27 +31,22 @@
 }
 
 .facebook {
-    height: auto;
     width: 2vw;
 }
 
 .googleplus {
-    height: auto;
     width: 2vw;
 }
 
 .twitter {
-    height: auto;
     width: 2vw;
 }
 
 .youtube {
-    height: auto;
     width: 2vw;
 }
 
 .gamechanger-logo {
-    height: auto;
     width: 22vw;
 }
 
@@ -73,14 +68,12 @@
 
 .info-side {
     width: 73%;
-    height: 100%;
     left: 0%;
     position: absolute;
 }
 
 .new-anmeldelses-side {
     width: 23%;
-    height: 100%;
     right: 0%;
     position: absolute;
 }
@@ -112,7 +105,6 @@ th {
 }
 .anmeldelse-picture{
     width:100%;
-    height:auto;
 }
 .subtitle{
     font-size:0.9vw;
@@ -144,12 +136,10 @@ th {
 .nye-anmeldelser .Anmeldelse-pic-size {
     width: 20%;
     padding: 0px;
-    height: auto;
 }
 
 .Anmeldelse-pic-size img {
     max-width: 100%;
-    height: auto;
 }
 
 a:link{
