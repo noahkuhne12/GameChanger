@@ -31,28 +31,28 @@
 }
 
 .facebook {
-    height: 75%;
-    width: 1.75vw;
+    height: auto;
+    width: 2vw;
 }
 
 .googleplus {
-    height: 75%;
-    width: 1.75vw;
+    height: auto;
+    width: 2vw;
 }
 
 .twitter {
-    height: 75%;
-    width: 1.75vw;
+    height: auto;
+    width: 2vw;
 }
 
 .youtube {
-    height: 75%;
-    width: 1.75vw;
+    height: auto;
+    width: 2vw;
 }
 
 .gamechanger-logo {
-    height: 80%;
-    width: 21vw;
+    height: auto;
+    width: 22vw;
 }
 
 .center-overlap {
@@ -93,8 +93,11 @@ th {
 }
 
 .table .head-colum .arrow {
-    width: 22px;
-    position: center;
+    width: 1.5vw;
+}
+
+.table .head-colum .arrow img {
+    width: 1.5vw;
 }
 
 .Anmeldelse-size {
@@ -150,5 +153,5 @@ th {
 }
 
 a:link{
-    text-decoration:none;
+    color:black;
 }

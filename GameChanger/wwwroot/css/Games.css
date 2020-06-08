@@ -29,32 +29,33 @@
 }
 
 .social-size{
-    width: 42px;
+    width: 2vw;
 }
 
+
 .facebook {
-    height: 75%;
-    width: 39px;
+    height: auto;
+    width: 2vw;
 }
 
 .googleplus {
-    height: 75%;
-    width: 39px;
+    height: auto;
+    width: 2vw;
 }
 
 .twitter {
-    height: 75%;
-    width: 39px;
+    height: auto;
+    width: 2vw;
 }
 
 .youtube {
-    height: 75%;
-    width: 39px;
+    height: auto;
+    width: 2vw;
 }
 
 .gamechanger-logo {
-    height: 80%;
-    width: 21vw;
+    height: auto;
+    width: 22vw;
 }
 
 /*
@@ -100,8 +101,11 @@ th {
     color: deepskyblue;
 }
 
-.table .head-colum .arrow{
-    width:15px;
+.table .head-colum .arrow {
+    width: 1.5vw;
+}
+.table .head-colum .arrow img {
+    width: 1.5vw;
 }
 
 .games .games-pic-size{
@@ -166,5 +170,5 @@ th {
 }
 
 a:link{
-    text-decoration:none;
+    color:black;
 }

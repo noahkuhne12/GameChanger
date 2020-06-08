@@ -1,2 +1,108 @@
 ﻿body {
 }
+
+.top-baggrund-box {
+    width: 100%;
+    height: 20vh;
+    background-color: #808080;
+    background-position: top;
+    background-image: url('../gamechanger billedmateriale/grafik/cross.png');
+    background-repeat: round;
+}
+
+.center-box {
+    top: 0%;
+    bottom: 0%;
+    left: 19%;
+    right: 19%;
+    position: absolute;
+}
+
+/*
+    Social media og logo
+*/
+.logo {
+    top: 8%;
+    width: 100%;
+    table-layout: auto;
+    position: absolute;
+}
+
+.social-size {
+    width: 2vw;
+}
+
+
+.facebook {
+    height: auto;
+    width: 2.5vw;
+}
+
+.googleplus {
+    height: auto;
+    width: 2.5vw;
+}
+
+.twitter {
+    height: auto;
+    width: 2.5vw;
+}
+
+.youtube {
+    height: auto;
+    width: 2.5vw;
+}
+
+.gamechanger-logo {
+    height: auto;
+    width: 22vw;
+}
+
+/*
+    kontakt
+*/
+.center-overlap {
+    top: 14.5%;
+    bottom: 2%;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.white-space-around {
+    left: 3%;
+    right: 3%;
+    top: 3%;
+    bottom: 3%;
+    position: absolute;
+}
+
+.info-side {
+    width:100%;
+    height: 100%;
+    left: 0%;
+    position: absolute;
+}
+
+.table .head-colum
+th {
+    background-color: #343a40;
+    border-color: #454d55;
+    color: deepskyblue;
+}
+
+.table .head-colum .arrow {
+    width: 1.5vw;
+}
+
+.table .head-colum .arrow img {
+    width: 1.5vw;
+}
+
+.kontakt-size {
+    font-size: 1.5vw;
+}
+
+.velkommen-text{
+    font-size:1.3vw;
+}

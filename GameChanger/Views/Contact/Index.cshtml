@@ -3,38 +3,79 @@
 @{
     ViewData["Title"] = "Index";
 }
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <link href="~/css/Contact.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="top-baggrund-box"></div>
 
-<h1>Index</h1>
+        <div class="center-box">
 
-<h4>ContactInfo</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Index">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Fuldenave" class="control-label"></label>
-                <input asp-for="Fuldenave" class="form-control" />
-                <span asp-validation-for="Fuldenave" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Besked" class="control-label"></label>
-                <input asp-for="Besked" class="form-control" />
-                <span asp-validation-for="Besked" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+            <div>
+                <table class="logo">
+                    <thead>
+                        <tr>
+                            <td>
+                                <img class="gamechanger-logo" src="~/Gamechanger billedmateriale/Logo/logo.png" alt="GameChanger-logo" />
+                            </td>
+                            <td class="social-size" align="right">
+                                <img src="~/Gamechanger billedmateriale/Sociale ikoner/icon_facebook.png" class="facebook" />
+                            </td>
+                            <td class="social-size" align="right">
+                                <img src="~/Gamechanger billedmateriale/Sociale ikoner/icon_gplus.png" class="googleplus" />
+                            </td>
+                            <td class="social-size" align="right">
+                                <img src="~/Gamechanger billedmateriale/Sociale ikoner/icon_twitter.png" class="twitter" />
+                            </td>
+                            <td class="social-size" align="right">
+                                <img src="~/Gamechanger billedmateriale/Sociale ikoner/icon_youtube.png" class="youtube" />
+                            </td>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="center-overlap">
+                <div class="white-space-around">
+                    <table class="table">
+                        <thead class="head-colum">
+                            <tr>
+                                <th class="arrow" style="vertical-align:middle;">
+                                    <img src="~/Gamechanger billedmateriale/Grafik/icon_titlebar.png" />
+                                </th>
+                                <th class="kontakt-size">
+                                    Kontakt
+                                </th>
+                            </tr>
+
+                        </thead>
+                    </table>
+                   <div>
+                       <p class="velkommen-text">Udfyld og send formularen, hvis du har et spørgsmål eller en besked.</p>
+                   </div>
+                   <div>
+                       <div>
+                            <p>Fulde navn</p>
+                            <p>Email</p>
+                            <p>Besked</p>
+                       </div>
+                       <div>
+                           <input type="text"><br /><br />
+                           <input type="email" /><br /><br />
+                           <textarea id="w3review" name="w3review" rows="4" cols="60"></textarea>
+                           <br><br>
+                           <input type="submit" value="Submit">
+                       </div>
+                       
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        
+</body>
+    </html>
+
 
