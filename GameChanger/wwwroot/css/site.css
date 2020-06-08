@@ -76,6 +76,7 @@ body {
     padding: 0 !important;
     background-color: #000000 !important;
     opacity: 0.8 !important;
+    max-width: 100% !important;
 }
 .nav-link {
     padding: 0.1vw 2vw !important;
