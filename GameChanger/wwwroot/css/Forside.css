@@ -52,7 +52,6 @@
     right: 19.5%;
     left: 19.5%;
     max-width: 60%;
-    height:100%;
     top: 35.5vw;
     position: absolute;
     padding: 2% 1.5%;
@@ -91,20 +90,23 @@
 /*
 -------------Seneste-trailer----------
 */
-.Seneste-trailer {
-    width: 60%;
-    position: absolute;
+/*.Seneste-trailer {
+    width: 61.5%;
+    float: left;
 }
-
+.Seneste-trailer p{
+    font-size: 1vw;
+}
+*/
 
 /*
     Nye Anmeldelsers siden
 */
-.new-anmeldelses-side {
-    max-width: 35%;
-    right: 0%;
-    position: absolute;
-}
+/*.new-anmeldelses-side {
+    width: 31.5%;
+    padding-left: 2.5%;
+    float: left;
+}*/
 
 .table .head-colum
 th {
@@ -160,24 +162,20 @@ a:link {
 --------footer----------
 */
 .footer {
-    bottom: 0;
-    background-color: #b4b4b4 ;
-    
+    position: relative;    bottom: 0px;
+    background-color: #b4b4b4;
+    text-align: center;
 }
-footer {
-    width: 100%;
-}
-footer p {
+
+.footer p {
     font-size: 1vw;
     color: #808080;
     padding: 0px !important;
     margin: 0px !important;
-    float: left;
 }
-footer a {
+.footer a {
     font-size: 1vw;
     color: #808080;
     padding: 0px !important;
     margin: 0px !important;
-    float: left;
 }
