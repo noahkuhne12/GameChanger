@@ -151,7 +151,7 @@ th {
     margin-bottom:5px;
     border: 0.5px inset;
     -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    -moz-border-radius: 5px;f
     border-radius: 5px;
 }
 
@@ -162,4 +162,27 @@ th {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+}
+/*
+    footer
+*/
+.footer {
+    position: relative;
+    bottom: 0px;
+    background-color: #b4b4b4;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1vw;
+    color: #808080;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.footer a {
+    font-size: 1vw;
+    color: #808080;
+    padding: 0px !important;
+    margin: 0px !important;
 }

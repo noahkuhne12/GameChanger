@@ -50,17 +50,19 @@
                                 </th>
                                 <th></th>
                             </tr>
-                            
-                        </thead>  
+
+                        </thead>
                     </table>
-                    @* 
-                        Games siden til højre    
+                    @*
+            Games siden til højre
                     *@
                     <table class="games">
                         <tr>
                             <td></td>
                             <td class="games-pic-size" style="padding: 1%;">
-                                <img src="~/Gamechanger billedmateriale/Thumbs/thumb_splintercell.jpg" />
+                                <a href="@Url.Action("ReviewCallOfDuty", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span><img src="~/Gamechanger billedmateriale/Thumbs/thumb_splintercell.jpg" /></span>
+                                </a>
                             </td>
                             <td>
                                 <a href="@Url.Action("index", null, new { area = string.Empty, controller = "Reviews" })">
@@ -79,30 +81,35 @@
                         <tr>
                             <td></td>
                             <td class="games-pic-size gray-bagrund" style="padding: 1%;">
-                                <img src="~/Gamechanger billedmateriale/Thumbs/thumb_gtav.jpg" />
+                                <a href="@Url.Action("Reviewgtav", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span><img src="~/Gamechanger billedmateriale/Thumbs/thumb_gtav.jpg" /></span>
+                                </a>
+                                
                             </td>
                             <td class="gray-bagrund">
                                 <a href="@Url.Action("Reviewgtav", null, new { area = string.Empty, controller = "Reviews" })">
                                     <span class="games-title"><strong>Grand theft auto V</strong></span>
                                 </a>
-                                    <p class="subtitle">Udgiver: <u>Rockstar Games</u> | Genre: Action-Adventure</p>
-                                    <p class="maintext">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the
-                                        1500s, when an unknown printer took a galley of type and scrambled it to
-                                        make a type specimen book.
+                                <p class="subtitle">Udgiver: <u>Rockstar Games</u> | Genre: Action-Adventure</p>
+                                <p class="maintext">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to
+                                    make a type specimen book.
 
-                                    </p>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                             <td></td>
                             <td class="games-pic-size" style="padding: 1%;">
-                                <img src="~/Gamechanger billedmateriale/Thumbs/thumb_call_of_duty.jpg" />
+                                <a href="@Url.Action("ReviewCallOfDuty", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span><img src="~/Gamechanger billedmateriale/Thumbs/thumb_call_of_duty.jpg" /></span>
+                                </a>
                             </td>
                             <td>
                                 <a href="@Url.Action("ReviewCallOfDuty", null, new { area = string.Empty, controller = "Reviews" })">
-                                    <span class="games-title"><strong>Grand theft auto V</strong></span>
+                                    <span class="games-title"><strong>Call Of Duty: Ghosts</strong></span>
                                 </a>
                                 <p class="subtitle">Udgiver: <u>Activision</u> | Genre: First-person shooter</p>
                                 <p class="maintext">
@@ -117,7 +124,10 @@
                         <tr>
                             <td></td>
                             <td class="games-pic-size gray-bagrund" style="padding: 1%;">
-                                <img src="~/Gamechanger billedmateriale/Thumbs/thumb_titanfall.jpg" />
+                                <a href="@Url.Action("ReviewTitanfall", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span><img src="~/Gamechanger billedmateriale/Thumbs/thumb_titanfall.jpg" /></span>
+                                </a>
+                                
                             </td>
                             <td class="gray-bagrund">
                                 <a href="@Url.Action("ReviewTitanfall", null, new { area = string.Empty, controller = "Reviews" })">
@@ -135,8 +145,11 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td class="games-pic-size"  style="padding: 1%;">
-                                <img src="~/Gamechanger billedmateriale/Thumbs/thumb_red_dead_redemption.jpg" />
+                            <td class="games-pic-size" style="padding: 1%;">
+                                <a href="@Url.Action("ReviewRedDeadRedemption", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span> <img src="~/Gamechanger billedmateriale/Thumbs/thumb_red_dead_redemption.jpg" /></span>
+                                </a>
+                               
                             </td>
                             <td>
                                 <a href="@Url.Action("ReviewRedDeadRedemption", null, new { area = string.Empty, controller = "Reviews" })">
@@ -155,7 +168,9 @@
                         <tr>
                             <td></td>
                             <td class="games-pic-size gray-bagrund" style="padding: 1%;">
-                                <img src="~/Gamechanger billedmateriale/Thumbs/thumb_fifa_2014.jpg" />
+                                <a href="@Url.Action("ReviewFifa14", null, new { area = string.Empty, controller = "Reviews" })">
+                                    <span><img src="~/Gamechanger billedmateriale/Thumbs/thumb_fifa_2014.jpg" /></span>
+                                </a>
                             </td>
                             <td class="gray-bagrund">
                                 <a href="@Url.Action("ReviewFifa14", null, new { area = string.Empty, controller = "Reviews" })">
@@ -174,8 +189,8 @@
 
                     </table>
                 </div>
-                @* 
-                    nye anmeldelsers siden
+                @*
+        nye anmeldelsers siden
                 *@
                 <div class="new-anmeldelses-side">
                     <table class="table">
@@ -199,7 +214,7 @@
                                 <a href="@Url.Action("Index", null, new { area = string.Empty, controller = "Reviews" })">
                                     <span class="anmeldse-title"> <strong>Splinter cell: blacklist</strong></span>
                                 </a>
-                                
+
                                 <p class="time-written-size"> oprettet: 6. Juni 2020</p>
                             </td>
                         </tr>
@@ -207,13 +222,13 @@
                             <td class="Anmeldelse-pic-size gray-bagrund">
                                 <img src="~/Gamechanger billedmateriale/Thumbs/thumb_gtav.jpg" />
                             </td>
-                            
+
                             <td style="padding:2%;" class=" gray-bagrund">
 
                                 <a href="@Url.Action("Reviewgtav", null, new { area = string.Empty, controller = "Reviews" })">
                                     <span class="anmeldse-title"> <strong>Grand Theft Auto V</strong></span>
                                 </a>
-                                   
+
                                 <p class="time-written-size"> oprettet: 5. Juni 2020</p>
                             </td>
                         </tr>
