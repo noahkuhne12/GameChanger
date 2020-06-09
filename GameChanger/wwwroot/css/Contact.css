@@ -59,7 +59,7 @@
 }
 
 /*
-    kontakt
+    miden af kontakt
 */
 .center-overlap {
     top: 14.5%;
@@ -74,13 +74,6 @@
     right: 3%;
     top: 3%;
     bottom: 3%;
-    position: absolute;
-}
-
-.info-side {
-    width:100%;
-    height: 100%;
-    left: 0%;
     position: absolute;
 }
 
@@ -102,7 +95,71 @@ th {
 .kontakt-size {
     font-size: 1.5vw;
 }
-
+/*
+    info-side
+*/
 .velkommen-text{
     font-size:1.3vw;
+}
+
+
+.Information-box{
+    width:100%;
+    height:30vh;
+    position:absolute;
+}
+.info-side {
+    width:30%;
+    left: 0% ;
+    position: absolute;
+}
+
+.info-side p{
+    margin-bottom:2%;
+    padding-right:5px;
+    width: 100%;
+}
+
+/*
+    write-side
+*/
+.write-side {
+    width: 70%;
+    right: 0%;
+    position: absolute;
+}
+
+#textarea {
+    width: 30vw;
+    border: 0.5px inset;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.send-button {
+    background-color: lightskyblue;
+    border:none;
+    color: white;
+    width:11%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.email-box {
+    width: 17vw;
+    margin-bottom:5px;
+    border: 0.5px inset;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.name-box {
+    width: 17vw;
+    margin-bottom:5px;
+    border: 0.5px inset;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
