@@ -159,21 +159,25 @@ a:link {
 /*
 --------footer----------
 */
-footer{
-    position: relative;
-    width: 100%;
-    background-color: #bebaba;
-    bottom: 0%;
+.footer {
+    bottom: 0;
+    background-color: #b4b4b4 ;
+    
 }
-footer p{
+footer {
+    width: 100%;
+}
+footer p {
+    font-size: 1vw;
     color: #808080;
     padding: 0px !important;
     margin: 0px !important;
-    float: right;
+    float: left;
 }
 footer a {
+    font-size: 1vw;
     color: #808080;
     padding: 0px !important;
     margin: 0px !important;
-    float: right;
+    float: left;
 }
